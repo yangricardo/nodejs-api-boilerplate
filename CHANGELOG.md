@@ -6,3 +6,6 @@
 - Add base typescripts dependencies `yarn add typescript tslib ts-node ts-node-dev tsconfig-paths`
 - Typescript init configuration: `yarn tsc --init`
   - enable advanced options for typescript
+- install express `yarn add express && yarn add -D @types/express`
+- install reflect-metadata to enable typescript decorators: `yarn add reflect-metadata`
+- install node typescript definitions
