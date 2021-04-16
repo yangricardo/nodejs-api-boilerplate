@@ -1,0 +1,8 @@
+{
+  "name": "nodejs-api-boilerplate",
+  "version": "1.0.0",
+  "description": "A Node Rest Api boilerplate using Typescript, TypeORM, Express",
+  "main": "src/index.ts",
+  "author": "Yang Ricardo Barcellos Miranda <yangricardo17@gmail.com>",
+  "license": "MIT"
+}
