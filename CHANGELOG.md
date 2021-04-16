@@ -11,3 +11,5 @@
 - install node typescript definitions
 - build script
 - dev / prod server application
+- [Typescript / ESLINT / Jest / Prettier / Husky configuration](https://medium.com/@oxodesign/node-js-express-with-typescript-eslint-jest-prettier-and-husky-part-2-f129188ce404)
+  - eslint start configuration
