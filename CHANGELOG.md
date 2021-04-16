@@ -4,3 +4,5 @@
 
 - Project started
 - Add base typescripts dependencies `yarn add typescript tslib ts-node ts-node-dev tsconfig-paths`
+- Typescript init configuration: `yarn tsc --init`
+  - enable advanced options for typescript
