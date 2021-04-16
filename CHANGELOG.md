@@ -10,3 +10,4 @@
 - install reflect-metadata to enable typescript decorators: `yarn add reflect-metadata`
 - install node typescript definitions
 - build script
+- dev / prod server application

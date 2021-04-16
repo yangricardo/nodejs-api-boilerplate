@@ -2,4 +2,6 @@
 
 ## CLI Commands
 
-- Build application: `yarn build`
+- Build Application: `yarn build`
+- Run Dev/Debug Server Application: `yarn dev`
+- Run Server Application: `yarn prod:node` || `yarn prod:ts-node`
