@@ -21,3 +21,4 @@
   - celebrate / joi to request validations
   - AppError helper class to throw application errors
   - EnvironmentConfiguration to provide environement variables configuration
+- typeorm configuration
