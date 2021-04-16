@@ -16,3 +16,8 @@
   - prettier configuration
   - editorconfig
 - [Jest configuration](https://dev.to/ornio/node-js-express-with-typescript-eslint-jest-prettier-and-husky-part-3-1l8c)
+- Express scalablle configuration
+  - handle assync error middleware
+  - celebrate / joi to request validations
+  - AppError helper class to throw application errors
+  - EnvironmentConfiguration to provide environement variables configuration
