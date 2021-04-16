@@ -9,3 +9,4 @@
 - install express `yarn add express && yarn add -D @types/express`
 - install reflect-metadata to enable typescript decorators: `yarn add reflect-metadata`
 - install node typescript definitions
+- build script
