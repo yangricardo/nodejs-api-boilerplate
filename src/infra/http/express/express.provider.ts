@@ -5,7 +5,7 @@ import { EnvironmentConfiguration } from '@/configs/env.config';
 import { errors } from 'celebrate';
 import { handleAsyncErrorMiddleware } from './middelwares/handle-async-error.middelware';
 import routes from './routes';
-export class ExpressConfiguration {
+export class ExpressProvider {
   private app: Application;
   private env: EnvironmentConfiguration;
 
@@ -28,6 +28,6 @@ export class ExpressConfiguration {
   }
 
   static builder() {
-    return new ExpressConfiguration();
+    return new ExpressProvider();
   }
 }
