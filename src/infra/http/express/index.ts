@@ -1,22 +1,22 @@
-import express, { Application, Router } from 'express';
+import express, { Application } from 'express';
 import 'express-async-errors';
 import cors from 'cors';
 import { EnvironmentConfiguration } from '@/configs/env.config';
 import { errors } from 'celebrate';
 import { handleAsyncErrorMiddleware } from './middelwares/handle-async-error.middelware';
-
+import routes from './routes';
 export class ExpressConfiguration {
   private app: Application;
   private env: EnvironmentConfiguration;
 
-  constructor(router: Router) {
+  constructor() {
     this.app = express();
     this.env = EnvironmentConfiguration.builder();
     this.app.use(cors());
     this.app.use(express.text());
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: true }));
-    this.app.use(router);
+    this.app.use(routes);
     this.app.use(errors());
     this.app.use(handleAsyncErrorMiddleware);
   }
@@ -27,7 +27,7 @@ export class ExpressConfiguration {
     );
   }
 
-  static builder(router: Router = Router()) {
-    return new ExpressConfiguration(router);
+  static builder() {
+    return new ExpressConfiguration();
   }
 }
